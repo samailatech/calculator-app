@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Calculator from './calculator';
+// App.js
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CalculatorApp from './CalculatorApp';
 
 function App() {
   return (
-    <div className = "App">
-      <Calculator/>
+    <div className="App">
+      <header className="App-header">
+        <h1>React Calculator</h1>
+      </header>
+      <CalculatorApp />
     </div>
   );
 }
